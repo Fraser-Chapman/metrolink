@@ -13,7 +13,7 @@ Tram.prototype = {
         var currentStationIndex = routeStations.indexOf(this._currentStation)
         var nextStationIndex = currentStationIndex + 1
 
-        if (nextStationIndex >= routeStations.length()) {
+        if (nextStationIndex >= routeStations.length) {
             return 'End of the line'
         }
 
